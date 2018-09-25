@@ -1,4 +1,6 @@
-defmodule Term do
+defmodule PactElixir.Term do
+  alias PactElixir.Term, as: Term
+
   defstruct [:generate, :regex]
 
   def get_my_map(%Term{} = term) do
